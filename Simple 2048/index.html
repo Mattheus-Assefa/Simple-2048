@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>2048</title>
-</head>
-<body>
-
-    <table id="extra">
-        <tr>
-            <td style="margin-right: 20%; width: 350px;">
-                <h1>2048</h1>
-            </td>
-            <td>
-                <div id="Score">
-                    <p>Score</p>
-                    <p id="score">0</p>
-                </div>
-                <button onclick="Reset_Board()">New Game</button>
-            </td>
-        </tr>
+  </head>
+  <body>
+    <table id="Upperhalf">
+      <tr>
+        <td id="Spacing">
+          <h1>2048</h1>
+        </td>
+        <td>
+          <div class="Score">
+            <p>Score</p>
+            <!-- The value gets changed in the script. -->
+            <p id="score">0</p>
+          </div>
+          <button onclick="Reset_Board()">New Game</button>
+        </td>
+      </tr>
     </table>
 
-    <table id="Board">
-        <tr>
-            <td id="1" class="tile"></td>
-            <td id="2" class="tile"></td>
-            <td id="3" class="tile"></td>
-            <td id="4" class="tile"></td>
-        </tr>
+    <table id="Field">
+      <tr>
+        <td id="1" class="tile"></td>
+        <td id="2" class="tile"></td>
+        <td id="3" class="tile"></td>
+        <td id="4" class="tile"></td>
+      </tr>
 
-        <tr>
-            <td id="5" class="tile"></td>
-            <td id="6" class="tile"></td>
-            <td id="7" class="tile"></td>
-            <td id="8" class="tile"></td>
-        </tr>
+      <tr>
+        <td id="5" class="tile"></td>
+        <td id="6" class="tile"></td>
+        <td id="7" class="tile"></td>
+        <td id="8" class="tile"></td>
+      </tr>
 
-        <tr>
-            <td id="9" class="tile"></td>
-            <td id="10" class="tile"></td>
-            <td id="11" class="tile"></td>
-            <td id="12" class="tile"></td>
-        </tr>
+      <tr>
+        <td id="9" class="tile"></td>
+        <td id="10" class="tile"></td>
+        <td id="11" class="tile"></td>
+        <td id="12" class="tile"></td>
+      </tr>
 
-        <tr>
-            <td id="13" class="tile"></td>
-            <td id="14" class="tile"></td>
-            <td id="15" class="tile"></td>
-            <td id="16" class="tile"></td>
-        </tr>
+      <tr>
+        <td id="13" class="tile"></td>
+        <td id="14" class="tile"></td>
+        <td id="15" class="tile"></td>
+        <td id="16" class="tile"></td>
+      </tr>
     </table>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

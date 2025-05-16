@@ -1,4 +1,4 @@
-#Board {
+#Field {
     margin-top: 5%;
     margin-left: 27%;
     background-color: darkgray;
@@ -6,11 +6,16 @@
     height: 470px;
 }
 
-#extra {
+#Upperhalf {
     margin-left: 25%;
 }
 
-#Score{
+#Spacing {
+    width: 350px;
+    margin-right: 20%;
+}
+
+.Score{
     background-color: #876a66;
     color: #f9f6f2;
     font-size: 18px;
